@@ -1,0 +1,83 @@
+
+.meal-item{
+    width: 90%;
+    height: 3cm;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 0.3m; */
+
+}
+
+
+.meal-about{
+    width:30%;
+}
+
+.meal-amonut{
+    width:30%
+}
+.meal-name{
+    font-weight: 900;
+    font-size: 24px;
+    margin: 4px;
+    padding: 0;
+    color:#3d0c02;
+    font-family: 'Tapestry', cursive;
+
+}
+.meal-desc{
+    font-weight: 200;
+    font-size: 18px;
+    margin: 4px;
+    padding: 0;
+}
+.meal-price{
+    font-weight: 900;
+    font-size: 22px;
+    color:#12539E;
+    margin: 4px;
+    padding: 0;
+    font-family: 'Tapestry', cursive;
+
+}
+
+.meal-amount-p{
+    font-weight: 900;
+    font-size: 20px;
+    color:#3d0c02;
+    font-family: 'Tapestry', cursive;
+
+
+    /* margin: 3px; */
+}
+
+.meal-add-btn{
+    /* background-color: #3d0c02; */
+    background-color: #12539E;
+    color: wheat;
+    font-weight: 900;
+    font-size: 20px;
+    width: 3cm;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    padding-left:2mm ;
+    padding-right:2mm;
+    padding-top: 2mm;
+    font-family: 'Tapestry', cursive;
+
+    padding-bottom: 2mm;
+}
+
+.meal-add-btn:hover{
+    background-color: #062f5f;
+    /* box-shadow: 0px 0px 0px #81a1c6,0px 0px 20px #81a1c6,0px 0px 50px #81a1c6; */
+    padding: 2mm;
+}
+
+.amount-value{
+    width: 30px;
+    height: 15px;
+}

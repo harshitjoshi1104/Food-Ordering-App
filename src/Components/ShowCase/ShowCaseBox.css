@@ -1,0 +1,23 @@
+.show-some-words{
+    margin-top: 6cm;
+    border-radius: 10px;
+    width: 700px;
+    height: 200px;
+    padding: 1cm;
+    margin-bottom: 2cm;
+
+    /* background-color: #080808; */
+    background-color:#2c71c1;
+    color: white;
+    box-shadow: 7px 7px 0px #080808, 7px 7px 20px #080808,7px 7px 100px #080808;
+}
+
+
+.p_case{
+    font-size: 26px;
+    font-family: "Poppins",cursive;
+    /* font-family: 'Tapestry', cursive; */
+
+    letter-spacing: 1mm;
+    font-weight: 600;
+}

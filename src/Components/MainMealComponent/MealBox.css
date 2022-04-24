@@ -1,0 +1,55 @@
+.meal-box{
+    width: 60%;
+    /* height: 600px; */
+    /* background-color: white; */
+    /* background-color: #D99F46; */
+    /* background-color: #DCF0AE; */
+    background-color: #e9c26c;
+
+    margin:auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0.5mm;
+    padding-top: 1cm;
+    margin-bottom: 2cm;
+    box-shadow: 20px 20px rgb(0,0,0),20px 20px rgb(0,0,0),20px 20px rgb(0,0,0);
+    /* background: rgba(255,255,255,0.7); */
+    
+}
+
+
+.makeHorizontol{
+    width: 80%;
+    font-weight: 400;
+    background-color: black;
+    font-weight: 800;
+}
+
+.meal-box:hover{
+    animation: shaken_box 1000ms linear forwards;
+    z-index: 0;
+}
+
+@keyframes shaken_box {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    25%{
+
+        transform: rotateZ(-1deg);
+    }
+    50%{
+        transform: rotateZ(0deg);
+    }
+    75%{
+        transform: rotateZ(1deg);
+    }
+
+    100%{
+        transform: rotateZ(0deg);
+    }
+    
+}

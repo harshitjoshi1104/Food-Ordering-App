@@ -1,0 +1,105 @@
+.localClasss{
+    position: fixed;
+    top: 0mm;
+    left: 0mm;
+    z-index: 100    ;
+}
+
+.mainHeading{
+    font-size: 1.5cm;
+    font-weight: 900;
+    font-family: 'Mea Culpa', cursive;
+    color: white;
+    /* background-color: #3d0c02; */
+    background-color: #00254f;
+    /* background-color: #D99F46; */
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 0px white,0px 0px 20px white,0px 0px 80px white;
+    z-index: 100;
+    
+}
+
+.mainHeading.h1{
+    font-size: 1.5cm;
+    font-weight: 900;
+    font-family: 'Mea Culpa', cursive;
+    font-size: 1.5cm;
+    font-weight: 900;
+    transform: rotateZ(10deg);
+    box-shadow: 0px 0px 0px white,0px 0px 20px white,0px 0px 80px white;
+
+}
+
+.cartImage{
+    width: 70px;
+    height: 50px;
+}
+
+.cart-manager{
+    width: 6cm;
+    height: 1.5cm;
+    /* background-color: #20030a; */
+    background-color: #031932;
+    /* background-color: #B1DB5B; */
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    padding-left: 0.5cm;
+    align-items: center ;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.items-count{
+    background-color :#2874ca;
+    width: 1.5cm;
+    border-radius: 20px;
+    height: 60%;
+    z-index: 20;
+    font-size: 20px;
+    font-family: "Poppins",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cart-icon{
+    color: white;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    
+}
+
+.cart-manager:hover{
+    animation: cartHovering 1.5s linear forwards;
+    box-shadow: 0px 0px 0px white,0px 0px 20px white,0px 0px 80px white;
+    background-color: #17579f;
+}
+@keyframes cartHovering {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    25%{
+        transform: rotateZ(-5deg);
+    }
+    50%{
+        transform: rotateZ(0deg);
+    }
+    75%{
+        transform: rotateZ(5deg);
+    }
+    100%{
+        transform: rotateZ(0deg);
+    }
+    
+}

@@ -1,0 +1,76 @@
+.cart-items-main{
+    width: 90%;
+    height: 20mm;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dotted blue;
+
+}
+
+.cart-items-first{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 0;
+    margin: 0;
+}
+
+.cart-items-first-2{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.cart-items-main h1{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Mea Culpa', cursive; */
+    font-family: 'Tapestry', cursive;
+
+}
+.cart-items-main pre{
+    padding: 0;
+    margin: 1;
+    font-size: 18px;
+    font-weight: 900px;
+    color: #3d0c02;
+}
+
+.cart-items-main h3{
+    /* padding: 0; */
+    /* margin: 0; */
+    border: #3d0c02 solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1cm;
+    margin-left: 1cm;
+}
+
+.cart-item-btn{
+    font-size: 20px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    border: 1px solid #333;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(50, 81, 149);
+    border: none;
+    padding-top: 2mm;
+    padding-bottom: 2mm;
+    color: white;
+}
+.card-item-btn:hover{
+    background-color:green;
+}
